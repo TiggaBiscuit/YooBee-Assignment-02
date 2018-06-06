@@ -1,0 +1,74 @@
+{
+    "vehicles": [
+
+        {
+            "id": 1,
+            "name": "Street Triple (Motorbike)",
+            "model": "RS",
+            "pricePerDay": 109,
+            "year": "2017",
+            "numberOfSeats": 1,
+            "printedNumberOfSeats": "1",
+            "minDriverAge": 26,
+            "maxDriverAge": 60,
+            "engineSize": "765cc",
+            "driveType": "Back-wheel Drive",
+            "fuelTank": "17.4L - 91 Unleaded",
+            "transmissionType": "6-speed",
+            "multiMedia": "5 Inch TFT Screen",
+            "safetyFeatures": "ABS and Switchable Traction Control",
+            "reversingCamera": "No"
+        },  {
+            "id": 2,
+            "name": "Toyota Corolla (Hatch)",
+            "model": "Levin ZR",
+            "pricePerDay": 129,
+            "year": "2016",
+            "numberOfSeats": 5,
+            "printedNumberOfSeats": "5",
+            "minDriverAge": 21,
+            "maxDriverAge": 60,
+            "engineSize": "1.8L Petrol",
+            "driveType": "Front-wheel Drive",
+            "fuelTank": "50L - 91 Unleaded",
+            "transmissionType": "7-speed Automatic",
+            "multiMedia": "Radio, CD Player, AUX, USB, Bluetooth",
+            "safetyFeatures": "5 Star ANCAP Rating, 7 Airbags",
+            "reversingCamera": "Yes"
+        },  {
+            "id": 3,
+            "name": "Toyota Previa (People Mover)",
+            "model": "FWD",
+            "pricePerDay": 144,
+            "year": "2017",
+            "numberOfSeats": 7,
+            "printedNumberOfSeats": "7",
+            "minDriverAge": 24,
+            "maxDriverAge": 60,
+            "engineSize": "2.4L Petrol",
+            "driveType": "Front-wheel Drive",
+            "fuelTank": "65L - 91 Unleaded",
+            "transmissionType": "7-speed Automatic",
+            "multiMedia": "Radio, CD Player, AUX, USB, Bluetooth",
+            "safetyFeatures": "5 Star ANCAP Rating, 6 Airbags",
+            "reversingCamera": "Yes"
+        },  {
+            "id": 4,
+            "name": "Mercedes-Benz (Motorhome)",
+            "model": "Sprinter",
+            "pricePerDay": 200,
+            "year": "2017",
+            "numberOfSeats": 6,
+            "printedNumberOfSeats": "6",
+            "minDriverAge": 24,
+            "maxDriverAge": 60,
+            "engineSize": "2.2L Turbo Diesel",
+            "driveType": "Rear-wheel Drive",
+            "fuelTank": "75L - Turbo Diesel",
+            "transmissionType": "6-speed Automatic",
+            "multiMedia": "Radio, CD Player, USB",
+            "safetyFeatures": "6 Seat Belts, Personal Safe, Fire Extenguisher, First Aid Kit",
+            "reversingCamera": "No"
+        }
+    ]
+}

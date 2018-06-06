@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Unknown New Zealand</title>
+    <meta name="description" content="Foundation Coding Assignment">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.35/css/uikit.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="header">
+        <h1>Unknown New Zealand</h1>
+    </div>
+
+
+
+    <div class="content">
+        <form class="pure-form" onsubmit="return false">
+            <div class="homescreen">
+
+                <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body background-image-1">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="distancePerDay">
+                                        How many kilometers will you travel per day?
+                                        <br>
+                                        <input id="distancePerDay" type="text" name="distancePerDay" placeholder="10 - 500km" required="required">
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="lengthOfVehicleHired">
+                                        How long are you renting the vehicle for?
+                                        <br>
+                                        <input id="lengthOfVehicleHire" type="text" name="lengthOfVehicleHired" placeholder="1 - 30 Days" required="required">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body background-image-2">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="passenger-ammount-selection">
+                                        <label for="passengerAmmount">Ammount of Passengers</label>
+                                        <div>
+                                            <select id="passengerAmmount" name="passengerAmmount" required="required" class="custom-select">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="driver-age-selection">
+                                        <label for="select">Age of Driver</label>
+                                        <div>
+                                            <select id="driverAgeSelection" name="select" class="custom-select">
+                                                <option value="21">21</option>
+                                                <option value="22">22</option>
+                                                <option value="23">23</option>
+                                                <option value="24">24</option>
+                                                <option value="25">25</option>
+                                                <option value="26">26</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <div class="button-submit">
+                                <button id="submit-button" name="submit" type="submit" class="btn">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </form>
+
+        <br>
+
+        </div>
+
+        <div class="vehicle-list">
+
+        </div>
+    </div>
+
+    <br>
+
+    <div class="detail-screen">
+
+    </div>
+
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.35/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.35/js/uikit-icons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js" type="text/JavaScript"></script>
+</body>
+
+</html>
